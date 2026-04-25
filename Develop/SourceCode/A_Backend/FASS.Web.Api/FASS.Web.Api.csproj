@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AssemblyName>FRCS.Web</AssemblyName>
+		<Version>2.1.0</Version>
+		<ApplicationIcon>Resources\App.ico</ApplicationIcon>
+		<ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Areas\Setting\Controllers\ConfigEnvelopeController.cs" />
+	  <Compile Remove="Areas\Setting\Controllers\ConfigTrafficController.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="LinqForEEPlus" Version="1.0.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+		<PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+		<PackageReference Include="SkiaSharp" Version="3.116.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="7.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\FASS.Extend.Charge\FASS.Extend.Charge.csproj" />
+		<ProjectReference Include="..\FASS.Service\FASS.Service.csproj" />
+	</ItemGroup>
+
+</Project>

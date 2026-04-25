@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>2.1.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Dtos\Setting\ConfigEnvelopeDto.cs" />
+	  <Compile Remove="Dtos\Setting\ConfigTrafficControlDto.cs" />
+	  <Compile Remove="Dtos\Setting\Validators\ConfigEnvelopeDtoValidator.cs" />
+	  <Compile Remove="Dtos\Setting\Validators\ConfigTrafficControlDtoValidator.cs" />
+	  <Compile Remove="Entities\Setting\ConfigEnvelopeEntity.cs" />
+	  <Compile Remove="Entities\Setting\ConfigTrafficControlEntity.cs" />
+	  <Compile Remove="Entities\Setting\Types\ConfigEnvelopeEntityType.cs" />
+	  <Compile Remove="Entities\Setting\Types\ConfigTrafficControlEntityType.cs" />
+	  <Compile Remove="Models\Set\ConfigEnvelopeSet.cs" />
+	  <Compile Remove="Models\Set\ConfigTrafficControlSet.cs" />
+	  <Compile Remove="Services\Setting\ConfigEnvelopeService.cs" />
+	  <Compile Remove="Services\Setting\ConfigTrafficControlService.cs" />
+	  <Compile Remove="Services\Setting\Interfaces\IConfigEnvelopeService.cs" />
+	  <Compile Remove="Services\Setting\Interfaces\IConfigTrafficControlService.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FASS.Data" Version="2.1.0" />
+	</ItemGroup>
+
+</Project>

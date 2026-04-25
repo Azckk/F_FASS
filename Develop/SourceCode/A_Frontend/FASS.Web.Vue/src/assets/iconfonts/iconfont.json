@@ -1,0 +1,261 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "134036391",
+      "name": "图标库制作_查看",
+      "font_class": "tubiaokuzhizuo_chakan",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "134036389",
+      "name": "图标库制作_创建副本",
+      "font_class": "tubiaokuzhizuo_chuangjianfuben",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "134036383",
+      "name": "图标库制作_保存地图",
+      "font_class": "tubiaokuzhizuo_baocunditu",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "134036380",
+      "name": "图标库制作_打开地图",
+      "font_class": "tubiaokuzhizuo_dakaiditu",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "134036372",
+      "name": "图标库制作_顶对齐",
+      "font_class": "tubiaokuzhizuo_dingduiqi",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "134036376",
+      "name": "图标库制作_地图自适应",
+      "font_class": "tubiaokuzhizuo_dituzishiying",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "134036374",
+      "name": "图标库制作_底对齐",
+      "font_class": "tubiaokuzhizuo_diduiqi",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "134036375",
+      "name": "图标库制作_横向分布",
+      "font_class": "tubiaokuzhizuo_hengxiangfenbu",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "134036371",
+      "name": "图标库制作_检查错误",
+      "font_class": "tubiaokuzhizuo_jianchacuowu",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "134036365",
+      "name": "图标库制作_路线（直线）",
+      "font_class": "a-tubiaokuzhizuo_luxianzhixian",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "134036364",
+      "name": "图标库制作_路线 (贝塞尔二次)",
+      "font_class": "a-tubiaokuzhizuo_luxianbeisaiererci",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "134036361",
+      "name": "图标库制作_路线（圆弧）",
+      "font_class": "a-tubiaokuzhizuo_luxianyuanhu",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "134036363",
+      "name": "图标库制作_路线 (贝塞尔三次)",
+      "font_class": "a-tubiaokuzhizuo_luxianbeisaiersanci",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "134036359",
+      "name": "图标库制作_切换车辆轨迹",
+      "font_class": "tubiaokuzhizuo_qiehuancheliangguiji",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "134036358",
+      "name": "图标库制作_强制结束",
+      "font_class": "tubiaokuzhizuo_qiangzhijieshu",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "134036353",
+      "name": "图标库制作_区域(矩形）",
+      "font_class": "a-tubiaokuzhizuo_quyujuxing",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "134036355",
+      "name": "图标库制作_切换信息",
+      "font_class": "tubiaokuzhizuo_qiehuanxinxi",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "134036354",
+      "name": "图标库制作_区域(圆形）",
+      "font_class": "a-tubiaokuzhizuo_quyuyuanxing",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "134036349",
+      "name": "图标库制作_全屏",
+      "font_class": "tubiaokuzhizuo_quanping",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "134036343",
+      "name": "图标库制作_上移一层",
+      "font_class": "tubiaokuzhizuo_shangyiyiceng",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "134036342",
+      "name": "图标库制作_删除地图图片",
+      "font_class": "tubiaokuzhizuo_shanchuditutupian",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "134036337",
+      "name": "图标库制作_下移一层",
+      "font_class": "tubiaokuzhizuo_xiayiyiceng",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "134036336",
+      "name": "图标库制作_站点(矩形）",
+      "font_class": "a-tubiaokuzhizuo_zhandianjuxing",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "134036333",
+      "name": "图标库制作_右对齐",
+      "font_class": "tubiaokuzhizuo_youduiqi",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "134036332",
+      "name": "图标库制作_站点（圆形）",
+      "font_class": "a-tubiaokuzhizuo_zhandianyuanxing",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "134036327",
+      "name": "图标库制作_置于底层",
+      "font_class": "tubiaokuzhizuo_zhiyudiceng",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "134036328",
+      "name": "图标库制作_置于顶层",
+      "font_class": "tubiaokuzhizuo_zhiyudingceng",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "134036325",
+      "name": "图标库制作_纵向分布",
+      "font_class": "tubiaokuzhizuo_zongxiangfenbu",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "134036324",
+      "name": "图标库制作_重置地图",
+      "font_class": "tubiaokuzhizuo_zhongzhiditu",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "134036321",
+      "name": "图标库制作_左对齐",
+      "font_class": "tubiaokuzhizuo_zuoduiqi",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "141581460",
+      "name": "图标库制作_标签(圆形）",
+      "font_class": "a-tubiaokuzhizuo_biaoqianyuanxing",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "141581459",
+      "name": "图标库制作_标签(矩形）",
+      "font_class": "a-tubiaokuzhizuo_biaoqianjuxing",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "141581534",
+      "name": "图标库制作_设置只读模式",
+      "font_class": "tubiaokuzhizuo_shezhizhidumoshi",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "141581533",
+      "name": "图标库制作_复制尺寸",
+      "font_class": "tubiaokuzhizuo_fuzhichicun",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "141581531",
+      "name": "图标库制作_设置模式编辑",
+      "font_class": "tubiaokuzhizuo_shezhimoshibianji",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "141581532",
+      "name": "图标库制作_添加地图图片",
+      "font_class": "tubiaokuzhizuo_tianjiaditutupian",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+  ]
+}

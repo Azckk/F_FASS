@@ -1,0 +1,6 @@
+@FASS.Scheduler_HostAddress = http://localhost:20101
+
+POST {{FASS.Scheduler_HostAddress}}/api/v1/car/state/
+Accept: application/json
+
+###

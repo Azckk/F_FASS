@@ -1,0 +1,719 @@
+buttons:
+  lock: lock
+  unlock: unlock
+  changePassword: Change Password
+  pureLoginOut: LoginOut
+  pureLogin: Login
+  pureOpenSystemSet: Open System Configs
+  pureReload: Reload
+  pureCloseCurrentTab: Close CurrentTab
+  pureCloseLeftTabs: Close LeftTabs
+  pureCloseRightTabs: Close RightTabs
+  pureCloseOtherTabs: Close OtherTabs
+  pureCloseAllTabs: Close AllTabs
+  pureContentFullScreen: Content FullScreen
+  pureContentExitFullScreen: Content ExitFullScreen
+  pureClickCollapse: Collapse
+  pureClickExpand: Expand
+  pureConfirm: Confirm
+  pureSwitch: Switch
+  pureClose: Close
+  pureBackTop: BackTop
+  pureOpenText: Open
+  pureCloseText: Close
+  startMonitoring: Start monitoring
+  stopMonitoring: Stop Monitoring
+  mapShrinks: Map Shrinks
+  mapZoomIn: Map Zoom In
+  mapAdaptive: MapAdaptive
+  map100: Map 100%
+  switchInformation: Switch Information
+  toggleTrajectory: Toggle Trajectory
+  switchShowCar: Show/Hide Car
+  search: Search
+  reset: Reset
+  view: View
+  add: Add
+  addAttribute: Add Attribute
+  modification: Modification
+  edit: Edit
+  delete: Delete
+  forceDelete: Force Delete
+  enable: Enable
+  disable: Disable
+  car: Car
+  addRule: Add Rule
+  addConfiguration: Add Configuration
+  subtasks: Subtasks
+  newLogisticsLine: New logistics line
+  publish: Publish
+  resume: Resume
+  pause: Pause
+  recovery: Recovery
+  cancel: Cancel
+  threeMonths: Retention for nearly three months
+  oneMonths: Reserved for nearly a month
+  oneWeek: Keep nearly a week
+  oneDay: Keep nearly a day
+  clearAll: Clear All
+  container: Container
+  material: Material
+  storage: Storage
+  addTag: Add Tag
+  user: User
+  permission: Permissions
+  dictItem: Dictionary Item
+  templateRule: Template Rule
+  addChargingPile: Add Charging Pile
+  chargingStrategy: Charging Strategy
+  showConflictPoints: Show conflict
+  goWhere: goWhere
+  goCharging: goCharging
+  goStartPoint: goStartPoint
+  initialization: initialization
+  Pause/Resume: Pause/Resume
+  endTask: endTask
+  cancelTask: cancelTask
+  completelyOffline: completelyOffline
+  stopTask: stopTask
+  recoveryTask: recoveryTask
+  restart: restart
+  refreshS: refreshS
+  ok: ok
+  siteIsEnabled: Whether the site is enabled
+  siteIsDisable: Whether to disable the site
+  details: Details
+  addTags: Add Tags
+  handled: Handled
+  notTreated: Not treated
+  clearMarker: Clear Marker
+  isLock: Lock
+  isUnlock: Unlock
+  delRecord: Delete Record
+  Stop/Recovery: Stop/Recovery
+  import: Import
+  export: Export
+  synchronousCar: synchronousCar
+  SynchronousCacheLibrary: SynchronousCacheLibrary
+search:
+  pureTotal: Total
+  pureHistory: History
+  pureCollect: Collect
+  pureDragSort: （Drag Sort）
+  pureEmpty: Empty
+  purePlaceholder: Search Menu
+panel:
+  pureSystemSet: System Configs
+  pureCloseSystemSet: Close System Configs
+  pureClearCacheAndToLogin: Clear cache and return to login page
+  pureClearCache: Clear Cache
+  pureOverallStyle: Overall Style
+  pureOverallStyleLight: Light
+  pureOverallStyleLightTip: Set sail freshly and light up the comfortable work interface
+  pureOverallStyleDark: Dark
+  pureOverallStyleDarkTip: Moonlight Overture, indulge in the tranquility and elegance of the night
+  pureOverallStyleSystem: Auto
+  pureOverallStyleSystemTip: Synchronize time, the interface naturally responds to morning and dusk
+  pureThemeColor: Theme Color
+  pureLayoutModel: Layout Model
+  pureVerticalTip: The menu on the left is familiar and friendly
+  pureHorizontalTip: Top menu, concise overview
+  pureMixTip: Mixed menu, flexible
+  pureStretch: Stretch Page
+  pureStretchFixed: Fixed
+  pureStretchFixedTip: Compact pages make it easy to find the information you need
+  pureStretchCustom: Custom
+  pureStretchCustomTip: Minimum 1280, maximum 1600
+  pureTagsStyle: Tags Style
+  pureTagsStyleSmart: Smart
+  pureTagsStyleSmartTip: Smart tags add fun and brilliance
+  pureTagsStyleCard: Card
+  pureTagsStyleCardTip: Card tags for efficient browsing
+  pureInterfaceDisplay: Interface Display
+  pureGreyModel: Grey Model
+  pureWeakModel: Weak Model
+  pureHiddenTags: Hidden Tags
+  pureHiddenFooter: Hidden Footer
+  pureMultiTagsCache: MultiTags Cache
+  Flow-TaskRecord: Task List(MDCS)
+menus:
+  pureHome: Home
+  Root: Root
+  Monitor: Monitor
+  Monitor-Car: MonitorCar
+  Monitor-Runtime: MonitorRuntime
+  Monitor-Alarm: MonitorAlarm
+  Map: Map
+  Map-Edit: MapEdit
+  Base: Base
+  Base-Map: BaseMap
+  Base-Zone: BaseZone
+  Base-Node: BaseNode
+  Base-Edge: BaseEdge
+  Data: Data
+  Data-ChargingStation: ChargingStation
+  Data-Car: Car
+  Data-CarType: CarType
+  Data-CarAction: CarAction
+  Data-CarTraffic: CarTraffic
+  Data-Standby: Standby
+  Data-Charge: Charge
+  Data-Avoid: Avoid
+  Data-Envelope: Envelope
+  Data-TrafficRules: TrafficRules
+  Data-PlanRules: PlanRules
+  Data-Attribute: Attribute
+  Instant: Instant
+  Instant-CarInstantAction: CarInstantAction
+  Flow: Flow
+  Flow-TaskTemplate: TaskTemplate
+  Flow-LogisticsRoute: Logistics
+  Flow-TaskInstance: TaskInstance
+  Task: Task Management
+  Task-TaskRecord: Task TaskRecord
+  Task-Template: Task Template
+  Record: Record
+  Record-Alarm: Alarm
+  Record-Diary: Diary
+  Record-PlcRawData: PlcRawData
+  Object: Object
+  Object-Charging: Charging
+  Object-ThirdPartySystem: ThirdPartySystem
+  Object-SafetyLightGrid: SafetyLightGrid
+  Object-ButtonBox: ButtonBox
+  Object-TrafficLight: TrafficLight
+  Object-Elevator: Elevator
+  Warehouse: Warehouse
+  Warehouse-Area: Area
+  Warehouse-Storage: Storage
+  Warehouse-Container: Container
+  Warehouse-Material: Material
+  Warehouse-Tag: Tag
+  Warehouse-StorageContainerHistory: StorageContainerHistory
+  Warehouse-ContainerMaterialHistory: ContainerMaterialHistory
+  Warehouse-MaterialStorageHistory: MaterialStorageHistory
+  Warehouse-Work: Work
+  Warehouse-StorageCallTask: StorageCallTask
+  RealTime: RealTime
+  safety-Sign: Safely Sign
+  Signal-GeneralSafetySignal: Signal GeneralSafetySignal
+  instrument: Instrument
+  jump-Record: Jump Record
+  Report: Report
+  Scada: Scada
+  Report-Home: ReportHome
+  Report-Efficiency: ReportEfficiency
+  Report-Load: ReportLoad
+  Report-Fault: ReportFault
+  Mobile: Mobile
+  Mobile-Home: Home
+  Mobile-Menu: Menu
+  Mobile-FlowCarTaskSingle: FlowCarTaskSingle
+  Mobile-FlowCarTaskDouble: FlowCarTaskDouble
+  Mobile-FlowCarTaskTemplate: FlowCarTaskTemplate
+  Mobile-WarehouseDataStorage: WarehouseDataStorage
+  Mobile-WarehouseDataContainer: WarehouseDataContainer
+  Mobile-WarehouseDataMaterial: WarehouseDataMaterial
+  Mobile-WarehouseWorkAreaA: WarehouseWorkAreaA
+  Mobile-WarehouseWorkAreaB: WarehouseWorkAreaB
+  Mobile-WarehouseWorkAreaC: WarehouseWorkAreaC
+  Mobile-StorageCallList: StorageCallList
+  Mobile-StorageCall: StorageCall
+  Mobile-Runtime: Runtime
+  Mobile-Visualization: Visualization
+  Mobile-PadCall: PadCall
+  Mobile-CustomizedPadCall: MobileCustomizedPadCall
+  Mobile-PreWork: PreWork
+  Mobile-PreMaterial: PreMaterial
+
+  Warehouse-StorageCall: StorageCall
+  Screen: Screen
+  Screen-Home: Home
+  Screen-Map: Map
+  Screen-Data: Data
+  Screen-Runtime: Runtime
+  Account: Account
+  Account-User: User
+  Account-Role: Role
+  Account-Org: Org
+  Account-Permission: Permission
+  Frame: Frame
+  Frame-Config: Config
+  Frame-Dict: Dict
+  Trace: SystemLog
+  Trace-UserAction: UserAction
+  Trace-DataAudit: DataAudit
+  RunManagement: RunManagement
+  RunManagement-Mission: RunManagement Mission
+  Setting: Setting
+  Setting-ConfigData: ConfigData
+  Setting-ConfigService: ConfigService
+  pureLogin: Login
+  pureAbnormal: Abnormal Page
+  pureFourZeroFour: "404"
+  pureFourZeroOne: "403"
+  pureFive: "500"
+  purePermission: Permission Manage
+  purePermissionPage: Page Permission
+  purePermissionButton: Button Permission
+  Task-TaskTemplateMdcs: Task manager
+  Task-LogisticsRoute: LogisticsRoute
+  Monitor-Traffic: Traffic(MDCS)
+  Monitor-AlarmMdcs: Alarm Monitoring(MDCS)
+  Warehouse-Visualization: Visualization of location
+  Warehouse-VisualizationTask: VisualizationTask of location
+  Statistics: Statistics
+  Statistics-Energy: Energy
+  Statistics-Fault: Fault
+  Statistics-Tasks: Tasks
+  Object-AutoDoor: AutoDoor
+  Signal: Signal
+  Safety-Sign: Safety-Sign
+  Instrument: Instrument
+  Jump-Record: Jump-Record
+
+status:
+  pureLoad: Loading...
+  pureMessage: Message
+  pureNotify: Notify
+  pureTodo: Todo
+  pureNoMessage: No Message
+  pureNoNotify: No Notify
+  pureNoTodo: No Todo
+login:
+  pureUsername: Username
+  purePassword: Password
+  pureLogin: Login
+  pureLoginSuccess: Login Success
+  pureLoginFail: Login Fail
+  pureUsernameReg: Please enter username
+  purePassWordReg: Please enter password
+  purePassWordRuleReg: The password format should be any combination of 8-18 digits
+title:
+  title: 迷榖调度系统
+  probabilityOfResolution: Probability Of Resolution
+  dataStatistics: Data Statistics
+  latestDevelopments: Latest developments
+  status: Status
+  map: Map
+  alarm: Alarm
+table:
+  car: car
+  site: site
+  electricity: electricity
+  status: status
+  speed: speed
+  level: level
+  type: type
+  agreementType: agreementType
+  time: time
+  message: message
+  alarm: alarm
+  tools: Tools
+  code: code
+  name: name
+  search: Search
+  refresh: Refresh
+  list: List
+  view: View
+  version: Version
+  fileName: fileName
+  fileContent: fileContent
+  classification: Classification
+  isLock: isLock
+  maxCar: maxCar
+  siteLocation: Site Location
+  action: Action
+  extension: Extension
+  sequenceId: sequenceId
+  nodeDescription: nodeDescription
+  isEnable: isEnable
+  isOneway: isOneway
+  actionType: Action Type
+  blockageType: Blockage Type
+  coordinatesX: coordinatesX
+  coordinatesY: coordinatesY
+  angle: angle
+  accuracyCoordinates: accuracy Coordinates
+  accuracyAngle: accuracy Angle
+  mapNo: mapNo
+  mapdescription: mapdescription
+  routeTrajectory: Route Trajectory
+  routeDescription: Route Description
+  release: Release
+  startingPointLandmark: Starting Point Landmark
+  endLandmark: End Landmark
+  pleaseSelect: Please Select
+  maxSpeed: Max Speed
+  minSpeed: Min Speed
+  maxHeight: Max Height
+  minHeight: Min Height
+  routeDirection: Route Direction
+  directionType: Direction Type
+  crossDirection: Cross Direction
+  allowRotation: Allow Rotation
+  maxSteering: Max Steering
+  routeLength: Route Length
+  createAt: Creation time
+  updateAt: Update time
+  region: Region
+  select: Select
+  protocol: protocol
+  site-rectangle: Site (Rectangular)
+  site-Round: Site (Round)
+  route-straightLine: Route (straight line)
+  route-Arc: Route (arc)
+  route-Bessel2: Route (Bessel2)
+  route-Bessel3: Route (Bessel3)
+  region-Rectangular: Region (Rectangular)
+  region-Round: Region (Round)
+  Label-Rectangular: Label (Rectangle)
+  Label-Round: Label (Round)
+  deleteObject: Delete Object
+  settingMode-View: Setting mode [View]
+  settingMode-ReadOnly: Set Mode [read-only]
+  settingMode-Edit: Setting mode [edit]
+  switchInformation: Switch information
+  switchVehiclePath: Switch vehicle path
+  checkForErrors: Check for errors
+  copyObject: Copy Object
+  copySize: Copy Size
+  alignLeft: Align Left
+  alignRight: Align Right
+  topAlignment: Top alignment
+  bottomAlignment: Base Alignment
+  transverseDistribution: transverse distribution
+  longitudinalDistribution: longitudinal distribution
+  moveUpOneLayer: Move up one layer
+  moveDownOneLayer: Move down one layer
+  placingOnTop: Placing on top
+  placedAtTheBottom: placed at the bottom
+  addMapImage: Add map picture
+  deleteMapImage: Delete map image
+  mapAdaptive: map adaptive
+  map100: Map 100%
+  resetMap: Reset Map
+  openMap: Open Map
+  saveMap: Save Map
+  loadSimpleMap: load Simple Map
+  pointCloudMap: load point Cloud Map
+  property: Property
+  foundation: Foundation
+  width: Width
+  height: Height
+  transparency: Transparency
+  borderWidth: Border Width
+  borderColor: Border Color
+  fillColor: Fill Color
+  isVisible: Whether to display
+  yes: Yes
+  no: No
+  carType: Car Type
+  frontSite: Front Site
+  currentSite: Current Site
+  rearSite: Rear Site
+  IPAddress: IP Address
+  port: Port
+  manufacturer: Manufacturer
+  serialNumber: SerialNumber
+  lowOnPower: LowOnPower
+  length: Length
+  controlType: ControlType
+  avoidType: AvoidType
+  minBattery: Electricity(min)
+  maxBattery: Electricity(max)
+  effectiveness: Effectiveness
+  remark: Remark
+  extend: Extend
+  execute: Execute
+  sortNumber: Sort Number
+  pleaseEnter: Please enter
+  operation: Operation
+  startTime: Start Time
+  endTime: End Time
+  controlOfVehicles: Control Of Vehicles
+  regulatedvehicle: Regulated vehicle
+  regulatoryStatistics: Regulatory Statistics
+  bidirectional: isBidirectional
+  envelopeProperties: Envelope Properties
+  envelopeDescription: Envelope Description
+  envelopeParameter: Envelope Parameter
+  index: Index
+  callarea: call Area
+  callstorage: call Storage
+  area: Area
+  callsite: Call Site
+  storage: Storage
+  callmodel: Call Model
+  ruleConfiguration: Rule Configuration
+  ruleDescription: Rule Description
+  ruleParameters: Rule Parameters
+  pathPlanningConfiguration: Path Planning Configuration
+  configurationParameters: Configuration Parameters
+  propertyName: Property Name
+  attributeDescription: Attribute Description
+  propertyValue: Property Value
+  priority: Priority
+  cycle: Cycle
+  timeout: Timeout
+  lineName: Line name
+  startingPointReservoirArea: Starting point reservoir area
+  terminalReservoirArea: Terminal reservoir area
+  doNotSpecify: Do not specify
+  taskTemplates: Task Templates
+  ownVehicle: Own Vehicle
+  targetNode: Target Node
+  specifySite: Specify Site
+  startSite: Start Site
+  endSite: Rnd Site
+  specifyRoute: Specify Route
+  barcode: Barcode
+  documentContent: Document Content
+  fieldName: FieldName
+  fieldParameters: FieldParameters
+  batch: Batch
+  spec: Spec
+  unit: Unit
+  quantity: Quantity
+  tagName: Tag Name
+  tagColor: Tag Color
+  tagParameters: Tag Parameters
+  storageCode: StorageCode
+  containerCode: ContainerCode
+  materialCode: MaterialCode
+  template: Template
+  username: Username
+  uname: Name
+  nick: Nick
+  gender: Gender
+  birthday: Birthday
+  avatar: Avatar
+  systemUser: System User
+  phone: Phone
+  mail: Mail
+  departmentName: Please enter department name
+  foldAll: Fold All
+  expandAll: Expand All
+  superior: Superior
+  sort: Sort
+  method: Method
+  icon: Icon
+  target: Target
+  address: Address
+  key: Key
+  value: Value
+  param: Parameters
+  dictcode: Dictionary Encoding
+  controller: Controller
+  timing: Timing
+  requestUrl: RequestUrl
+  requestToken: Request Token
+  responseCode: Response Code
+  userAgent: User Agent
+  tableName: Table Name
+  entityState: Entity State
+  originalValue: Original Value
+  originalSize: Original Size
+  currentValue: Current Value
+  currentAction: Current Action
+  userLogDayLimit: Keep user logs (days)
+  auditLogDayLimit: Retain audit logs (days)
+  diaryDayLimit: Business Record Retention (Days)
+  alarmDayLimit: Keep alarm records (days)
+  carInstantActionDayLimit: Record of Instant Vehicle Movements (days)
+  taskInstanceDayLimit: Keep task instance records (days)
+  workDayLimit: Retain warehousing task records (days)
+  carMinBattery: Minimum vehicle charge (%)
+  carMaxBattery: Maximum vehicle charge (%)
+  carIdleSecond: Vehicle idle time (seconds)
+  save: Save
+  configurationItem1: Configuration Item1
+  configurationItem2: Configuration Item2
+  configurationItem3: Configuration Item3
+  taskName: Task Name
+  taskType: Task Type
+  taskStartingPoint: Task Starting Point
+  taskEndingPoint: Task End
+  taskOver: Task completion conditions
+  duplicate: Duplicate
+  taskStatus: Task Status
+  templateCode: Template Code
+  templateType: Template Type
+  templateDescription: Template Description
+  commonRules: Common Rules
+  description: Description
+  ruleName: Rule Name
+  chargingPileID: Charging Pile ID
+  chargingPileName: Charging Pile Name
+  chargingPileIP: Charging Pile IP
+  chargingMode: Charging Mode
+  siteId: Site Id
+  current: Current
+  voltage: Voltage
+  carCollection: Car Collection
+  occupancytrolleyID: Occupancy trolley ID
+  isOccupied: Occupancy
+  state: Status
+  mark: Mark
+  trafficState: TrafficState
+  interlock: Interlock
+  siveSimple: siveSimple
+  fromCarCode: Control of vehicles
+  toCarCode: Regulated vehicle
+  controlTime: Control time
+  lockedNodes: Locked Site
+  carCode: Car Code
+  carName: Car Name
+  alarmCode: Alarm Code
+  alarmName: Alarm Name
+  continue: Continue
+  sendWork: Send Work
+  designatedVehicle: Designated Vehicle
+  reservoirVisualization: ReservoirVisualization
+  materialstobecleaned: Materials to be cleaned
+  emptyTray: Empty tray
+  thereAreCleanedMaterials: There are cleaned materials
+  emptylocation: Empty location
+  number: No.
+  route: Route
+  task: Task
+  frontRoute: Front Route
+  rearRoute: Rear Route
+  currentRoute: Current route
+  startRoute: Starting point route
+  endRoute: End route
+  preState: Pre-state
+  postState: Post State
+  isOnline: Whether online
+  isNormal: Whether it is normal
+  carStatus: Car Status
+  systemName: SystemName
+  communicationProtocol: Communication Protocol
+  communicationMode: Communication Mode
+  communicationInterface: Communication Interface
+  communicationAddress: Communication Address
+  baudRate: Baud Rate
+  dataFormat: Data Format
+  dataInstruction: Data Instruction
+  heartbeatSignal: Heartbeat ignal
+  faultHandling: Fault Handling
+  communicationDriver: Communication Driver
+  deviceType: DeviceType
+  deviceName: DeviceName
+  manufacturer2: Manufacturer
+  model: Model
+  interfaceName: Interface Name
+  requestMethod: Request Method
+  headers: Request Header
+  queryParams: Request Parameters
+  responseParams: Response parameters
+  availableTags: Available Tags
+  prevNodeId: Former Site ID
+  nextNodeId: Post Site ID
+  isAdvance: Whether to open the door in advance
+  operationType: Operation type
+  operationDescription: Operation Description
+  minBattery2: Lower limit of charging power
+  maxBattery2: Upper charging capacity limit
+  carIdleSecond2: Charging power duration
+  carIdleChargeBattery: Charging safety power
+  taskAvailableBattery: Lower limit of charging capacity allowed for task interruption
+  taskMonitoring: Task Monitoring
+  alarmMonitoring: Alarm monitoring
+  fleetMonitoring: Fleet monitoring
+  taskCoding: Task coding
+  vehicleCoding: Vehicle coding
+  startAlarm: Start alarm
+  trigger: Trigger
+  errorCode: Error Code
+  exception: Exception
+  idle: Idle
+  charging: Charging
+  inTask: In Task
+  offline: Offline
+  viewMore: View more
+  function: function
+  noData: No data
+  quickOperation: Operation
+  sitType: Site Type
+  siteRotation: Site Rotation
+  siteStatus: Site Status
+  pathPlanningRules: path planning rules
+  startingPoint: Starting Point
+  endPoint: End
+  direction: Direction
+  pathSpeed: Path speed
+  pathAngle: Path angle
+  forwardObstacleAvoidanceInterval: Forward obstacle avoidance interval
+  backwardObstacleAvoidanceInterval: Backward obstacle avoidance interval
+  coordinates: Coordinates
+  alarmStatus: Alarm status
+  memory: Memory
+  ethernet: Ethernet
+  currentLockPoint: Current Lock Point
+  preLockPoint: Pre-lock point
+  otherProperties: Other Properties
+  attributeOne: Attribute One
+  attributeParameters: Attribute Parameters
+  pleaseSelectAChargingStation: Please select a charging station
+  pleaseSelectASiteToGo: Please select a site to go
+  totalTask: General tasks
+  completeTheTask: Complete the task
+  exceptionTasks: Exception Tasks
+  taskAchievementRate: Task achievement rate
+  chargeElectricalEnergy: Charge electric energy
+  dischargeElectricalEnergy: discharge electrical energy
+  noChargingData: No charging pile data...
+  mode: Mode
+  voltage2: Voltage
+  current2: Current
+  online: Online
+  inIdle: In Idle
+  bidirectional2: Bidirectional
+  unidirectional: Unidirectional
+  vehicleID: Vehicle ID
+  basicInformation: Basic information
+  schedulingStatus: Scheduling Status
+  hardwareStatus: Hardware Status
+  HandSize: Hand Size
+  temperature: CPU temperature
+  endAlarm: End alarm
+  tags: Tags
+  unnamed: Unnamed
+  username2: Account
+  passwordOrigin: Original password
+  passwordNew: New Password
+  PasswordNewConfirm: Confirm new password
+  controlPoint: Control Point
+  controlPointNum: Number of control points
+  controlPointNURSB: Control Point NURSB
+  weight: Weight
+  carInfo: Car Info
+  routeInfo: Route information
+  siteInfo: Site Info
+  taskId: Task ID
+  storageName: Storage Name
+  srcStorageId: srcStorageId
+  destStorageId: destStorageId
+  isScheduled: isScheduled
+mobile:
+  taskProcess: Task Process
+  singleTasks: Single Tasks
+  doubleTasks: Double Tasks
+  templateTasks: Template Tasks
+  warehousingData: Warehousing Data
+  storageData: Storage Data
+  containerData: Container Data
+  materialData: Material Data
+  warehousingTasks: Warehousing Tasks
+  missionAreaA: Mission Area A
+  missionAreaB: Mission Area B
+  missionAreaC: Mission Area C
+  container: Container
+  material: Material
+screen:
+  currentTime: Current Time
+  frontEnd: FrontEnd
+  backstage: Backstage
+  fullScreen: Full Screen
+  exit: Exit
