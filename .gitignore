@@ -73,7 +73,7 @@ StyleCopReport.xml
 *.rar
 *.7z
 *.exe
-04.测试部署/05_上线发布包/
+
 
 # Files built by Visual Studio
 *_i.c
@@ -367,5 +367,4 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/03.配置开发/03_代码/01_源代码/backend/FASS.Web.Api/appsettings.json
-03.配置开发/03_代码/02_安装包/redis-windows-7.2.5.0
+
