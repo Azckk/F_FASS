@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+
+# 日志文件
+Develop/SourceCode/**/Logs/
+
 # =====================
 # Redis（内置运行环境）
 # =====================
