@@ -3,10 +3,20 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-# Redis runtime files（运行时产生的垃圾文件）
-Redis/**/dump.rdb
-Redis/**/*.pid
-Redis/**/*.log
+# 允许提交内置 Redis 运行文件
+!Develop/Redis/
+!Develop/Redis/**
+!Develop/Redis/**/redis-server.exe
+!Develop/Redis/**/*.exe
+!Develop/Redis/**/*.dll
+!Develop/Redis/**/*.conf
+!Develop/Redis/**/*.bat
+!Develop/Redis/**/*.md
+
+# 但不提交 Redis 运行时文件
+Develop/Redis/**/dump.rdb
+Develop/Redis/**/*.pid
+Develop/Redis/**/*.log
 
 # User-specific files
 *.rsuser
