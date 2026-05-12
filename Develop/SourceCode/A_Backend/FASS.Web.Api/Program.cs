@@ -110,6 +110,9 @@ static void WaitRedisReady(string connectionString)
 var builder = WebApplication.CreateBuilder(args);
 StartRedisIfNotRunning(builder.Configuration);
 WaitRedisReady("127.0.0.1:6379");
+
+
+
 var appSettings = builder.Configuration.Get<AppSettings>();
 builder.Services.AddSingleton(Guard.NotNull(appSettings));
 builder.Services.AddSerilog((services, logger) => logger.ReadFrom.Configuration(builder.Configuration));
@@ -129,14 +132,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwashbuckle();
 builder.Services.AddCurrent();
 builder.Services.AddAuth(appSettings);
-
 builder.Services.AddBoot(builder.Configuration, appSettings);
 builder.Services.AddHostedService<AppHostService>();
-//if (!builder.Environment.IsDevelopment())
-//{
-//    builder.Services.AddBoot(builder.Configuration, appSettings);
-//    builder.Services.AddHostedService<AppHostService>();
-//}
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: "AllowAny", builder =>
@@ -158,6 +155,8 @@ app.UseCurrent();
 app.UseAuth();
 // Legacy behavior (kept for reference):
 // app.Services.UseBoot();
+
+app.Logger.LogInformation("当前环境: {env}", app.Environment.EnvironmentName);
 if (!app.Environment.IsDevelopment())
 {
     app.Services.UseBoot();
